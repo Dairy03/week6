@@ -1,4 +1,4 @@
-/* div h2{
+div h2{
     font-style:italic;
 }
 
@@ -14,7 +14,6 @@ h2 + p{
     list-style:none;
 
 } 
-PART2*/
 
 li > a:visited{
     color:red;
@@ -30,5 +29,9 @@ li > a:hover{
 
 li:first-child::first-letter{
     font-weight:bold;
-    font-size:1200%;
+    font-size:120%;
+}
+
+a[title="BCIT homepage"]{
+    background-color:yellow;
 }
