@@ -16,3 +16,14 @@ h2 + p{
 } 
 PART2*/
 
+li > a:hover{
+    color:pink;
+}
+
+li > a:visited{
+    color:red;
+}
+
+li > a{
+    color:green;
+}
